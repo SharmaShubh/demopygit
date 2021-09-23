@@ -1,3 +1,3 @@
 def ab():
-    print("hello")
-    print("hii")
+    d = {"name":"Shubham" , "age" : 26}
+    assert d["age"] == 14 ,"test case failed"
