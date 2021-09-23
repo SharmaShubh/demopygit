@@ -1,2 +1,3 @@
-print("hello")
-print("hii")
+def ab():
+    print("hello")
+    print("hii")
