@@ -2,7 +2,7 @@
  import java.text.DateFormat  
  import java.text.SimpleDateFormat  
  %>  
- <!-- Robot Framework Results -->  
+ <!-- Robot Framework Result -->
  <%  
  def robotResults = false  
  def actions = build.actions // List<hudson.model.Action>  
@@ -18,7 +18,7 @@
   <td><b>Test Name</b></td>  
   <td><b>Status</b></td>  
   <td><b>Execution Datetime</b></td>  
- </tr>  
+ </tr>
  </thead>  
  <tbody>  
  <% def suites = action.result.allSuites  
